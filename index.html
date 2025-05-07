@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diwen (Daisy) Xiao's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="noise"></div>
+    <div class="overlay"></div>
+    
+    <header>
+        <div class="terminal-nav">
+            <div class="terminal-prompt">
+                <span class="terminal-user">my@portfolio</span>:<span class="terminal-path">~/resume</span>$ <span class="terminal-cursor">_</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#education">education</a></li>
+                    <li><a href="#experience">experience</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#publications">publications</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container">
+                <div class="glitch-wrapper">
+                    <h1 class="glitch" data-text="DIWEN (DAISY) XIAO">DIWEN (DAISY) XIAO</h1>
+                </div>
+                <h2 class="subtitle">DATA ENGINEER <span class="accent">|</span> DEVELOPER <span class="accent">|</span> INNOVATOR</h2>
+                <div class="hero-description">
+                    <!-- do not change below line -->
+                    <p>Exploring <span class="highlight">complex problems</span> through <span class="highlight">innovative research</span></p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/diwen-daisy-xiao-a5617335a" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:dxiao0220@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> About Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Data Engineer with expertise in Python, SQL, Scala, and Java, building ETL pipelines, real-time streaming applications, and distributed systems. Proficient in AWS, Snowflake, NoSQL, and RDBMS in cloud environments. Strong in UNIX/Linux and Shell scripting, committed to writing tested, performance-optimized code through agile practices. Passionate about emerging technologies, continuous learning, and mentoring within the engineering community.</p>
+                        
+                        <div class="terminal-box">
+                            <div class="terminal-header">
+                                <span class="terminal-dot red"></span>
+                                <span class="terminal-dot yellow"></span>
+                                <span class="terminal-dot green"></span>
+                                <span class="terminal-title">daisy@data:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <p><span class="command">$ cat contact_info.txt</span></p>
+                                <p>Email: dxiao0220@gmail.com</p>
+                                <p>Phone: (919)-798-9811</p>
+                                <p><span class="command">$</span><span class="terminal-cursor">_</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Education</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="education-container" id="education-container">
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">Master’s in Information Sciences/Studies</div>
+                            <div class="item-date">May 2023 – Present</div>
+                        </div>
+                        <div class="item-subtitle">Trine University, Graduate School</div>
+                    </div>
+                    
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">Master of Science in Data Science and Business Analytics</div>
+                            <div class="item-date">May 2020</div>
+                        </div>
+                        <div class="item-subtitle">University of North Carolina at Charlotte</div>
+                    </div>
+
+                    <div class="education-item">
+                        <div class="item-header">
+                            <div class="item-title">Bachelor of Science in Biological Sciences and Minor in Statistics</div>
+                            <div class="item-date">May 2018</div>
+                        </div>
+                        <div class="item-subtitle">North Carolina State University</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Work Experience</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="experience-container" id="experience-container">
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Data Engineer</div>
+                            <div class="item-date">Jun 2023 – Present</div>
+                        </div>
+                        <div class="item-subtitle">Bank of America</div>
+                        <ul class="item-description">
+                            <li>Developed and collaborated across teams to design, develop, test, implement, and support cloud-based, full-stack data solutions.</li>
+                            <li>Built and optimized data pipelines using Python, SQL, and Unix Shell scripting, automating workflows and reducing manual effort by 40%.</li>
+                            <li>Designed and implemented ETL workflows to migrate data from Hive to Oracle Exadata using optimized transformation logic, improving system efficiency by 30%.</li>
+                            <li>Scheduled and monitored over 30 batch jobs via Autosys, reducing error incidents by 25% through proactive issue resolution.</li>
+                            <li>Conducted unit testing and peer code reviews for each sprint cycle, improving deployment success rate by 20%.</li>
+                            <li>Participated in Agile ceremonies to align with sprint goals and improve cross-team collaboration and delivery timelines.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">Python</span>
+                            <span class="technique-tag">SQL</span>
+                            <span class="technique-tag">Unix Shell scripting</span>
+                            <span class="technique-tag">ETL</span>
+                            <span class="technique-tag">Hive</span>
+                            <span class="technique-tag">Oracle Exadata</span>
+                            <span class="technique-tag">Autosys</span>
+                            <span class="technique-tag">Agile</span>
+                        </div>
+                    </div>
+                    
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Data Engineer</div>
+                            <div class="item-date">Jun 2022 – May 2023</div>
+                        </div>
+                        <div class="item-subtitle">Pixar ITS, Inc.</div>
+                        <ul class="item-description">
+                            <li>Designed and implemented large-scale data processing pipelines using AWS Glue, PySpark, and S3 to process millions of records daily.</li>
+                            <li>Developed scalable transformation logic using Spark SQL and Hive, reducing batch runtime by 35% on average.</li>
+                            <li>Engineered OLAP data models to support business dashboards, cutting data retrieval time from minutes to under 10 seconds.</li>
+                            <li>Automated recurring ETL processes using Python and orchestration tools, saving over 100 hours of manual effort monthly.</li>
+                            <li>Shared technical knowledge with junior engineers and product stakeholders, strengthening team-wide data literacy.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">AWS Glue</span>
+                            <span class="technique-tag">PySpark</span>
+                            <span class="technique-tag">S3</span>
+                            <span class="technique-tag">Spark SQL</span>
+                            <span class="technique-tag">Hive</span>
+                            <span class="technique-tag">OLAP</span>
+                            <span class="technique-tag">Python</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-item">
+                        <div class="item-header">
+                            <div class="item-title">Data Analyst</div>
+                            <div class="item-date">Aug 2021 – Aug 2022</div>
+                        </div>
+                        <div class="item-subtitle">Baanyan Software Services, Inc.</div>
+                        <ul class="item-description">
+                            <li>Wrote optimized SQL queries and Python scripts to identify data quality issues in Oracle, reducing monthly reporting errors by 30%.</li>
+                            <li>Created automated Tableau dashboards for stakeholder reporting, reducing ad hoc data requests by 60%.</li>
+                            <li>Improved data validation logic and preprocessing pipelines, increasing system accuracy for client-facing reports by 25%.</li>
+                            <li>Collaborated with business analysts to translate data findings into actionable business decisions, accelerating project delivery timelines.</li>
+                        </ul>
+                        <div class="techniques-container">
+                            <span class="technique-tag">SQL</span>
+                            <span class="technique-tag">Python</span>
+                            <span class="technique-tag">Oracle</span>
+                            <span class="technique-tag">Tableau</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Technical Skills</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>C++</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Machine Learning</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>PyTorch</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>TensorFlow</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>Scikit-learn</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-brain"></i>
+                                <span>JAX</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Tools & Technologies</h3>
+                        <div class="skill-items" id="technical-skills-container">
+                            <div class="skill-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-dharmachakra"></i>
+                                <span>Kubernetes</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-aws"></i>
+                                <span>AWS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-google"></i>
+                                <span>GCP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title"><span class="accent">#</span> Contact Me</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>I'm always open to research collaborations and interesting projects. Feel free to reach out!</p>
+                    </div>
+                    <div class="contact-methods">
+                        <a href="mailto:dxiao0220@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>dxiao0220@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/diwen-daisy-xiao-a5617335a" target="_blank" class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/diwen-daisy-xiao-a5617335a</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>© 2025 Diwen (Daisy) Xiao | Data Engineer & Developer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:dxiao0220@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
